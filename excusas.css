@@ -1,0 +1,11 @@
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#excusa{
+    font-size: 70px;
+    width: 50%;
+    height: 80%;
+}
