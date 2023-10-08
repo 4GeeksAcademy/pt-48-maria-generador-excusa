@@ -11,7 +11,7 @@ function generadora(who, action, what, when){
     return randomWho + ' ' + randomAction + ' ' + randomWhat + ' ' + randomWhen;
 }
 function onLoad(){
-    var excusa = document.getElementById('excusa');
+    const excusa = document.getElementById('excusa');
     excusa.innerHTML = generadora(who, action, what, when);
 }
 window.onload = onLoad;
@@ -19,18 +19,4 @@ window.onload = onLoad;
 
 
 
-
-
-
-
-
-
-/*
-let randomWho = who[Math.floor(Math.random()* who.length)];
-let randomAction = action[Math.floor(Math.random()* action.length)];
-let randomWhat = what[Math.floor(Math.random() *what.length)];
-let randomWhen = when[Math.floor(Math.random() * when.length)];
-
-console.log(randomWho + randomAction +  randomWhat + randomWhen);
-*/
 
